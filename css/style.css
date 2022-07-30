@@ -70,7 +70,9 @@ body {
 }
 
 .card-cabeçalho {
-  background-color: #ff5e00;
+  background: linear-gradient(63deg,#ff7100,#db5100,#db4000,#862f00);
+  background-size: 240% 240%;
+  animation: gradient-animation 20s ease infinite;
   height: 25rem;
 }
 
@@ -91,11 +93,6 @@ body {
   filter:blur(5px);
 }
 
-.gradient-background {
-  background: linear-gradient(55deg,#df5b15,#923309,#db5500);
-  background-size: 180% 180%;
-  animation: gradient-animation 24s ease infinite;
-}
 
 @keyframes gradient-animation {
   0% {
